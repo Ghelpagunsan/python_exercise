@@ -1,8 +1,7 @@
-def convert():
-	x = [1, 2, 3]
-	print(int("".join(map(str, x))))
+def convert(x):
+	return str(int("".join(map(str, x))))
 
 
-convert()
+print(convert(x = [1, 2, 3]))
 
 

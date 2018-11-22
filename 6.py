@@ -1,9 +1,8 @@
-def check():
-	d = []
+def check(d):
 	if not d:
-		print("List is Empty")
+		return str("List is Empty")
 	else:
-		print(d)
+		return str(d)
 
 
-check()
+print(check([]))

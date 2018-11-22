@@ -1,6 +1,5 @@
-def sorting():
-	s = [9,7,4,6,11,15,8]
+def sorting(s):
 	s.sort()
-	print(s)
+	return str(s)
 
-sorting()
+print(sorting([9,7,4,6,11,15,8]))

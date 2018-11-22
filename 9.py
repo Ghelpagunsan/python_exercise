@@ -1,5 +1,4 @@
-def unique():
-	x = [1,2,3,1,3]
+def unique(x):
 	y = [] #uniques values
 	z = [] #duplicates
 	for i in x:
@@ -8,7 +7,7 @@ def unique():
 		else:
 			z.append(i)
 
-	print(list(set(y) - set(z)))
+	return str(list(set(y) - set(z)))
 
 
-unique()	
+print(unique([1,2,3,1,3]))	

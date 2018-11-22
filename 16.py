@@ -1,4 +1,4 @@
 def convert_string(n):
-	print(list(map(int, n)))
+	return str(list(map(int, n)))
 
-convert_string("2535")
+print(convert_string("2535"))

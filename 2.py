@@ -1,6 +1,5 @@
-def app():
-	a = ['a', 'b', 'c', 'd']
-	print(a + ['f'])
+def app(a):
+	return str(a + ['f'])
 
-app()
+print(app(['a', 'b', 'c', 'd']))
 

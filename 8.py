@@ -1,11 +1,10 @@
-def duplicate():
-	x = [1,3,2,3,2,6,2]
+def duplicate(x):
 	y = []
 	for i in x:
 		if i not in y:
 			y.append(i)
 	y.sort()
-	print(y)
+	return str(y)
 	
 
-duplicate()
+print(duplicate([1,3,2,3,2,6,2]))

@@ -6,8 +6,8 @@ def non_integer(a):
 		else:
 			b.append(x)
 
-	print(b)
+	return str(b)
 
 
-non_integer([2,'a', '2', {1: 'one'}])
+print(non_integer([2,'a', '2', {1: 'one'}]))
 

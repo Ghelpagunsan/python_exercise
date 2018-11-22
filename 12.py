@@ -1,7 +1,7 @@
 def contains(a, b):
 	if b in a:
-		print(True)
+		return True
 	else:
-		print(False)
+		return False
 
-contains([1,2,3], 3)
+print(contains([1,2,3], 3))

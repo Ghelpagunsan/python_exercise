@@ -7,7 +7,7 @@ def lists():
 	d = dict.fromkeys(x, y)
 	sorted(d)
 	d.update({"B": b})
-	print(d)
+	return str(d)
 
 
-lists()
+print(lists())
