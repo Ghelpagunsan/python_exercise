@@ -4,7 +4,7 @@ def odd(a):
 		if i%2!=0:
 			b.append(i)
 
-	return str(b)
+	return b
 
 
 

@@ -6,6 +6,6 @@ def findObject(mylist, n):
 		if b == x['index']:
 			c = x
 
-	return str(c)
+	return dict(c)
 
 print(findObject(mylist, {'index':1}))
